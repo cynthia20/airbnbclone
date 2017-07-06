@@ -9,6 +9,7 @@ body{
 	width: 60em;
 	height: 2300px;
 }
+/*barre de navigation du site*/
 nav a{
 	color: #7D7D7D;
     right: 6%;
@@ -26,6 +27,9 @@ nav a:hover{
 nav{
 	background-color: transparent;
 }
+/*barre de navigation du site*/
+
+/*titre d'en-tête*/
 span{
 	color: #FF5F5A;
 }
@@ -35,6 +39,9 @@ h1{
 	position: relative;
 	left: 80px;
 }
+/*titre d'en-tête*/
+
+/*barre de choix*/
 .text-center{
 	position: relative;
 	top: 40px;
@@ -83,6 +90,9 @@ h1{
 #run:hover{
 	 color: #7D7D7D;
 }
+/*barre de choix*/
+
+/*premier lot d'images et textes*/
 #lon{
 	color: #484848;
 	font-family: Helvetica;
@@ -215,6 +225,10 @@ position: relative;
 	top: -100px;
 	left: 8%;
 }
+/*premier lot d'images et textes*/
+
+/*2ème lot d'images et textes*/
+
 #lou{
 	color: #484848;
 	font-family: Helvetica;
@@ -328,6 +342,9 @@ position: relative;
 	position: relative;
 	left: -17%;
 }
+/*2ème lot d'images et textes*/
+
+/*3ème lot d'images et textes*/
 #lui{
 	color: #484848;
 	font-family: Helvetica;
@@ -404,6 +421,9 @@ position: relative;
 	position: relative;
 	left: -18%;
 }
+/*3ème lot d'images et textes*/
+
+/*4ème lot d'images et textes*/
 .clo{
 	color: #484848;
 	font-family: Helvetica;
@@ -471,6 +491,21 @@ position: relative;
 	top: -325px;
 	left: 63.5%;
 }
+
+
+/*4ème lot d'images et textes*/
+
+/*section a choix multiples*/
+.lone{
+	width: 1340px;
+	height: 300px;
+	border-style: groove;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	position: relative;
+	left: -5%;
+	top: -250px;
+}
 .fet{
 	position: relative;
 	left: 7.5%;
@@ -493,15 +528,9 @@ position: relative;
 	font-family: Arial;
 	top: 100px;
 }
-.louv{
-	color: #484848;
-	font-family: Helvetica;
-	font-size: 15px;
-	font-weight: normal;
-}
-.louv:hover{
-	text-decoration: none;
-}
+/*section a choix multiples*/
+
+/*table de fin*/
 .trun1{
 color: #484848;
 	font-family: Helvetica;
@@ -536,6 +565,16 @@ color: #484848;
 .trun:hover{
 	text-decoration: none;
 }
+.louv{
+	color: #484848;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: normal;
+}
+.louv:hover{
+	text-decoration: none;
+}
+
 #opra{
 	position: relative;
 	left: 600%;
@@ -560,16 +599,9 @@ position: relative;
 #opre:hover{
 	color:#484848;
 }
-.lone{
-	width: 1340px;
-	height: 300px;
-	border-style: groove;
-	border-left-style: hidden;
-	border-right-style: hidden;
-	position: relative;
-	left: -5%;
-	top: -250px;
-}
+/*table de fin*/
+
+/*footer*/
 #pri{
 color: #7D7D7D;
     left: 89%;
@@ -577,8 +609,6 @@ color: #7D7D7D;
     position: relative;
     font-size: 14px;
     font-weight: bold;
-    /*padding: 1em;*/
-
 }
 #pri:hover{
 	color: #7D7D7D;
@@ -588,3 +618,4 @@ color: #7D7D7D;
 	top: -215px;
 	left: 8%;
 }
+/*footer*/
