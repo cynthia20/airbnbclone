@@ -1,0 +1,621 @@
+body{
+	margin: 0;
+	padding: 3em;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 1.5;
+	background:#FFF;
+	color: #444;
+	width: 60em;
+	height: 2300px;
+}
+/*barre de navigation du site*/
+nav a{
+	color: #7D7D7D;
+    right: 6%;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav a:hover{
+	color: #7D7D7D;
+	text-decoration: underline;
+	text-decoration-line-color: #7D7D7D;
+}
+nav{
+	background-color: transparent;
+}
+/*barre de navigation du site*/
+
+/*titre d'en-tête*/
+span{
+	color: #FF5F5A;
+}
+h1{
+	word-spacing: 1px;
+	font-size: 45px;
+	position: relative;
+	left: 80px;
+}
+/*titre d'en-tête*/
+
+/*barre de choix*/
+.text-center{
+	position: relative;
+	top: 40px;
+	left: 10%;
+	border-style: solid;
+	height: 100px;
+	border-radius: 6px;
+	text-align: left;
+	border-color: #7D7D7D;
+
+}
+.btn-primary{
+	position: relative;
+	left: 9%;
+	top: -30px;
+	background-color: #FF5F5A;
+	width: 160px;
+	height: 50px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.btn-primary:hover{
+	background-color: #FF5F5A;
+}
+#span{
+	color: #7D7D7D;
+}
+.run{
+	 
+    left: 8%;
+    top: 60px;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+#run{
+	padding: 1em;
+	 color: #7D7D7D;
+	 position: relative;
+	 top: 20px;
+	 left: -1%;
+}
+#run:hover{
+	 color: #7D7D7D;
+}
+/*barre de choix*/
+
+/*premier lot d'images et textes*/
+#lon{
+	color: #484848;
+	font-family: Helvetica;
+	position: relative;
+	left: 8.5%;
+	top: 70px;
+	font-weight: bold;
+}
+#von{
+	position: relative;
+	top: 90px;
+	left: 9%;
+}
+#von0{
+	position: relative;
+	top: 90px;
+	left: 11%;
+}
+#von1{
+	position: relative;
+	top: 90px;
+	left: 13%;
+}
+#von2{
+	position: relative;
+	top: 90px;
+	left: 15%;
+}
+#von3{
+	position: relative;
+	top: 90px;
+	left: 17%;
+}
+#star{
+	position: relative;
+	top: 90px;
+	left: 9%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#star:hover{
+	text-decoration: none;
+}
+.star{
+	color: black;
+	font-weight: bold;
+}
+.fa-star:before {
+ content: "	\002605";
+}
+.fa-star{
+	color: #00A699;
+}
+#store{
+	position: relative;
+	top: 38.5px;
+	left: 30%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+.store{
+	color: black;
+	font-weight: bold;
+}
+#store{
+	text-decoration: none;
+}
+#store1{
+	position: relative;
+	left: -16.5%;
+}
+#stif:hover{
+text-decoration: none;
+}
+#stif{
+position: relative;
+	top: -14.5px;
+	left: 51%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+.stif{
+	color: black;
+	font-weight: bold;
+}
+#stif1{
+	position: relative;
+	left: -17.5%;
+}
+#surf{
+	position: relative;
+	top: -70px;
+	left: 73%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#surf:hover{
+	text-decoration: none;
+}
+.surf{
+	color: black;
+	font-weight: bold;
+}
+.surf1{
+position: relative;
+	left: -17.5%;
+}
+
+
+#slow{
+position: relative;
+	top: -125px;
+	left: 93%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#slow:hover{
+	text-decoration: none;
+}
+.slow{
+	color: black;
+	font-weight: bold;
+}
+.slow1{
+	position: relative;
+	left: -16.5%;
+}
+.h1{
+	position: relative;
+	top: -100px;
+	left: 8%;
+}
+/*premier lot d'images et textes*/
+
+/*2ème lot d'images et textes*/
+
+#lou{
+	color: #484848;
+	font-family: Helvetica;
+	position: relative;
+	left: 9%;
+	top: -100px;
+	font-weight: bold;
+}
+.h2{
+	position: relative;
+	top: -100px;
+	left: 10%;
+}
+.h3{
+	position: relative;
+	top: -100px;
+	left: 12%;
+}
+.h4{
+	position: relative;
+	top: -95px;
+	left: 14%;
+}
+.h5{
+	position: relative;
+	top: -95px;
+	left: 16%;
+}
+#stéréo{
+	position: relative;
+	top: -100px;
+	left: 7.5%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#stéréo:hover{
+	text-decoration: none;
+}
+.stéréo{
+	color: black;
+	font-weight: bold;
+}
+#trip{
+	position: relative;
+	top: -160px;
+	left: 28%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#trip:hover{
+	text-decoration: none;
+}
+.trip{
+	color: black;
+	font-weight: bold;
+}
+.trip1{
+	position: relative;
+	left: -17%;
+}
+#trep{
+	position: relative;
+	top: -213.5px;
+	left: 50%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#trep:hover{
+	text-decoration: none;
+}
+.trep{
+	color: black;
+	font-weight: bold;
+}
+.trep1{
+	position: relative;
+	left: -17.5%}
+#trop{
+	position: relative;
+	top: -270px;
+	left: 71%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#trop:hover{
+	text-decoration: none;
+}
+.trop{
+	color: black;
+	font-weight: bold;
+}
+.trop1{
+	position: relative;
+	left: -17.5%;
+}
+#clef{
+	position: relative;
+	top: -320px;
+	left: 92.5%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#clef:hover{
+	text-decoration: none;
+}
+.clef{
+	color: black;
+	font-weight: bold;
+}
+.clef1{
+	position: relative;
+	left: -17%;
+}
+/*2ème lot d'images et textes*/
+
+/*3ème lot d'images et textes*/
+#lui{
+	color: #484848;
+	font-family: Helvetica;
+	position: relative;
+	left: 9%;
+	top: -300px;
+	font-weight: bold;
+}
+.rod{
+	position: relative;
+	top: -280px;
+	left: 8%;
+}
+.rod1{
+	position: relative;
+	top: -280px;
+	left: 10%;
+}
+.rod2{
+	position: relative;
+	top: -280px;
+	left: 12%;
+}
+#def{
+position: relative;
+	top: -270px;
+	left: 8%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#def:hover{
+	text-decoration: none;
+}
+.def{
+	color: #7D7D7D;
+	font-weight: bold;
+	font-size: 17px;
+}
+#def1{
+	position: relative;
+	top: -327px;
+	left: 44%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#def1:hover{
+	text-decoration: none;
+}
+.def1{
+	color: #7D7D7D;
+	font-weight: bold;
+	font-size: 18px;
+}
+#def2{
+	position: relative;
+	left: -18%;
+}
+#def3{
+	position: relative;
+	top: -380px;
+	left: 79%;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+#def3:hover{
+	text-decoration: none;
+}
+.def3{
+	color: #7D7D7D;
+	font-weight: bold;
+	font-size: 18px;
+}
+#def4{
+	position: relative;
+	left: -18%;
+}
+/*3ème lot d'images et textes*/
+
+/*4ème lot d'images et textes*/
+.clo{
+	color: #484848;
+	font-family: Helvetica;
+	position: relative;
+	left: 9%;
+	top: -350px;
+	font-weight: bold;
+}
+.clo1{
+	position: relative;
+	top: -333px;
+	left: 8%;
+}
+.clo2{
+	position: relative;
+	top: -333px;
+	left: 11%;
+}
+.clo3{
+	position: relative;
+	top: -333px;
+	left: 14%;
+}
+.clo4{
+position: relative;
+	top: -333px;
+	left: 16%;
+}
+.clo5{
+position: relative;
+	top: -333px;
+	left: 18%;
+}
+.pol{
+	color: #484848;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+}
+.pol:hover{
+	text-decoration: none;
+}
+#pol1{
+	position: relative;
+	top: -325px;
+	left: 8%;
+}
+#pol2{
+	position: relative;
+	top: -325px;
+	left: 23.5%;
+}
+#pol3{
+	position: relative;
+	top: -325px;
+	left: 38.5%;
+}
+#pol4{
+	position: relative;
+	top: -325px;
+	left: 54.3%;
+}
+#pol5{
+	position: relative;
+	top: -325px;
+	left: 63.5%;
+}
+
+
+/*4ème lot d'images et textes*/
+
+/*section a choix multiples*/
+.lone{
+	width: 1340px;
+	height: 300px;
+	border-style: groove;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	position: relative;
+	left: -5%;
+	top: -250px;
+}
+.fet{
+	position: relative;
+	left: 7.5%;
+	width: 230px;
+	height: 50px;
+	text-align:left; 
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Arial;
+	top: 40px;
+}
+.flot{
+	position: relative;
+	left: -10%;
+	width: 230px;
+	height: 50px;
+	text-align:left; 
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Arial;
+	top: 100px;
+}
+/*section a choix multiples*/
+
+/*table de fin*/
+.trun1{
+color: #484848;
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: bold;
+	position: relative;
+	left: 130%;
+	top: -8px;
+
+}
+.trun1:hover{
+text-decoration: none;
+}
+.trun2{
+position: relative;
+left: 165%;
+top: -9px;
+}
+.trun2:hover{
+text-decoration: none;
+}
+.trun{
+position: relative;
+left: 194%;
+top: -10px;
+color: #484848;
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+.trun:hover{
+	text-decoration: none;
+}
+.louv{
+	color: #484848;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: normal;
+}
+.louv:hover{
+	text-decoration: none;
+}
+
+#opra{
+	position: relative;
+	left: 600%;
+	top: 0px;
+}
+#opra:hover{
+	color:#484848; 
+}
+#opri{
+	position: relative;
+	left: 450%;
+	top: 0px;
+}
+#opri:hover{
+	color:#484848;
+}
+#opre{
+position: relative;
+	left: 420%;
+	top: 0px;
+}
+#opre:hover{
+	color:#484848;
+}
+/*table de fin*/
+
+/*footer*/
+#pri{
+color: #7D7D7D;
+    left: 89%;
+    top: -250px;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+}
+#pri:hover{
+	color: #7D7D7D;
+}
+.footer{
+	position: relative;
+	top: -215px;
+	left: 8%;
+}
+/*footer*/
